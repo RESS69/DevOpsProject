@@ -78,6 +78,9 @@ pipeline {
                     echo "✅ Deployment Successful! 🎉"
                     echo "👉 เปิดเว็บไซต์ที่: https://ressdevops.netlify.app/"
                 }
+
+
+                
                 failure {
                     echo "❌ Deployment Failed! Check logs for details."
                 }
