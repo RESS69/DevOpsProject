@@ -80,7 +80,7 @@ pipeline {
                 }
 
 
-                
+
                 failure {
                     echo "❌ Deployment Failed! Check logs for details."
                 }
@@ -111,6 +111,8 @@ pipeline {
                     }
                 }
             }
+
+            
             post {
                 success {
                     echo "✅ Resource monitoring completed successfully! Here are the results:"
